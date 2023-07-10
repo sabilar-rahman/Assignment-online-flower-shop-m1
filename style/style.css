@@ -4,10 +4,19 @@
     font-family: Lato;
 }
 
+.container {
+    padding: 0 240px;
+
+}
+
+.special-color {
+    color: #E55473;
+}
+
 /* start header section */
 .header {
     background: rgba(229, 84, 115, 0.10);
-    /* height: 100vh: */
+    /* height: 80vh; */
 }
 
 
@@ -40,7 +49,6 @@
     font-weight: 800;
     padding-top: 20px;
 
-
 }
 
 .banner-description {
@@ -56,7 +64,6 @@
 /* Button section */
 .btn-primary {
 
-
     border: 0;
     font-size: 20px;
     color: white;
@@ -66,3 +73,225 @@
 
 }
 
+/* information section start */
+.information-title {
+    text-align: center;
+    padding-top: 178px;
+
+
+}
+
+.title {
+    color: #272727;
+
+    font-size: 40px;
+
+    font-weight: 800;
+
+}
+
+.title-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* .icon-green {
+    width: 314px;
+    height: 471px;
+    flex-shrink: 0;
+} */
+
+
+
+.all-flower {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.single-flower {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.single-flower-image {
+    width: 310px;
+    height: 428px;
+    margin: 0 auto;
+    padding-top: 110px;
+    overflow: hidden;
+
+}
+
+/* .single-flower-image-green{
+    width: 310px;
+    height: 428px;
+    margin: 0 auto;
+    padding-top: 69px;
+    } */
+
+.flower-title {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 32px;
+
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+
+.single-flower-blue {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.single-flower-green {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+
+}
+
+/* .icon {
+    width: 310px;
+    height: 428px;
+} */
+
+/* .single-flower-title {
+    color: #272727;
+
+margin: 0 auto;
+width: 300px;
+    font-weight: 300px;
+    line-height: 37px;
+    text-decoration-line: underline;
+    
+}
+
+
+.single-flower-i {
+
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+height: 538px;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: px;
+    padding-bottom: 0px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+
+
+
+
+
+/* .row-folwer {
+    display: flex;
+    gap: 24px;
+} */
+
+.single-flower-red {
+
+    background: rgba(5, 151, 160, 0.15);
+    width: 250px;
+    height: 255px;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: px;
+    padding-bottom: 0px;
+
+}
+
+.single-flower-yellow {
+
+    background: rgba(71, 125, 17, 0.15);
+    width: 250px;
+    height: 255px;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: px;
+    padding-bottom: 0px;
+}
+
+/* hot deal start from here */
+
+.hotdeal {
+    margin-top: 150px;
+    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+    padding: 100px 0px 100px 0px;
+}
+
+.hot {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 186px;
+
+
+}
+
+.hot-left {
+    text-align: center;
+    /* padding-left:395px; */
+}
+
+
+
+.hot-title {
+    color: #272727;
+
+    font-size: 40px;
+    font-weight: 800;
+    /* padding-top: 20px; */
+
+
+}
+
+.hot-title-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-size: 18px;
+    margin: 24px 0px 32px 0px;
+    width: 594px;
+
+}
+
+
+
+
+.hot-right {}
+
+.hot-flower {
+    width: 318px;
+    height: 420px;
+
+}
