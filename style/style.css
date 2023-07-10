@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+/* start header section */
+.header {
+    background: rgba(229, 84, 115, 0.10);
+    height: 100vh:
+    
+
+}
+
+.header-container {}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+.banner .flower {
+    width: 635px;
+height: 800px;
+
+}
+
+.banner-title {
+    color: #272727;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 800;
+    padding-top: 20px;
+    
+}
