@@ -87,6 +87,7 @@
     font-size: 40px;
 
     font-weight: 800;
+    margin-bottom: 24px;
 
 }
 
@@ -96,6 +97,10 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    width: 594px;
+    margin: 0 auto;
+
+
 }
 
 
@@ -108,7 +113,7 @@
 
 
 .all-flower {
-    margin-top: 50px;
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -293,5 +298,87 @@ height: 538px;
 .hot-flower {
     width: 318px;
     height: 420px;
+
+}
+
+
+/* Instagram section start from here */
+
+.instagram-photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    gap: 24px;
+}
+
+.instagram-photo-row {
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+
+/* get the latest deal  */
+
+
+
+.get-the-deal{
+    margin-top: 128px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 1440px;
+    height: 449px; */
+    margin-bottom: 60px;
+
+    
+}
+
+.about {
+    
+    text-align: center;
+
+    padding-top: 122px;
+    /* margin-top: 100px; */
+    
+    
+    /* width: 1440px;
+    height: 449px; */
+
+
+
+
+    /* padding: 0 100px; */
+    /* padding: 10px; */
+
+}
+
+
+.about-email {
+    display: flex;
+    justify-content: center;
+    padding-top:48px;
+    padding-bottom: 123px;
+    
+
+
+}
+
+
+.emaill {
+
+    /* margin-top: 48px;
+ */
+
+    padding: 18px 35px;
+    border:2px solid #E55473;;
+
+    border-radius: 8px;
+    background: white;
+    width: 695px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 16px;
+    
 
 }
