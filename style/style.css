@@ -360,10 +360,12 @@ height: 538px;
     justify-content: center;
     padding-top: 48px;
     padding-bottom: 123px;
+    gap: 16px;
 
 
 
 }
+
 
 
 .emaill {
